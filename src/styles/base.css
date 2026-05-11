@@ -1,0 +1,122 @@
+.table-container {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.transaction-table th {
+  background: #1d4ed8;
+  color: white;
+  padding: 14px;
+  text-align: left;
+}
+
+.transaction-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transaction-table tr:hover {
+  background: #f5f9ff;
+}
+
+
+
+
+.account-table-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.account-table {
+  width: 600px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.account-table td {
+  padding: 14px;
+  border: 1px solid #ddd;
+}
+
+.account-table tr td:first-child {
+  font-weight: bold;
+  background: #f5f9ff;
+  width: 220px;
+}
+
+
+
+
+
+.tech-stack-section {
+  padding: 40px;
+}
+
+.tech-card {
+  background: white;
+  border-radius: 18px;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.tech-box {
+  background: #f8fbff;
+  border-radius: 16px;
+  padding: 25px;
+  transition: 0.3s;
+  border: 1px solid #dbeafe;
+}
+
+.tech-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.tech-box h2 {
+  color: #2563eb;
+  margin-bottom: 18px;
+  font-size: 24px;
+}
+
+.tech-box ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.tech-box li {
+  margin-bottom: 12px;
+  color: #334155;
+  font-size: 16px;
+}
+
+
+
+.top-link {
+  color: hotpink;
+  font-weight: bold;
+  text-decoration: underline;
+}
