@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "http://future-bank-bachend-env.eba-3cnmzday.ap-south-1.elasticbeanstalk.com/api",
 });
 
 export default API;
