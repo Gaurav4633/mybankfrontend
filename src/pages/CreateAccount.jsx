@@ -31,7 +31,7 @@ function CreateAccount() {
     try {
 
       const response = await API.post(
-        "/accounts",
+        "/api/accounts",
         formData
       );
 
